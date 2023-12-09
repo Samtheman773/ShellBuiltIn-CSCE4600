@@ -1,22 +1,16 @@
 # Project 2: Shell Builtins
+# Samuel Alvizo
 
 ## Description
 
-For this project we'll be adding commands to a simple shell. 
+For this project, we'll add 5 commands to a simple shell written in Go. 
 
-The shell is already written, but you will choose five (5) shell builtins (or shell-adjacent) commands to rewrite into Go, and integrate into the Go shell.
-
-There are many builtins or shell-adjacent commands to pick from: 
-[Bourne Shell Builtins](https://www.gnu.org/software/bash/manual/html_node/Bourne-Shell-Builtins.html), 
-[Bash Builtins](https://www.gnu.org/software/bash/manual/html_node/Bash-Builtins.html,), and 
-[Built-in csh and tcsh Commands](https://docstore.mik.ua/orelly/linux/lnut/ch08_09.htm).
-
-Feel free to pick from `sh`, `bash`, `csh`, `tcsh`, `ksh` or `zsh` builtins... or if you have something else in mind, ping me and we'll work it out.
-
-As an example, two shell builtins have already been added to the package builtins:
-
-- `cd`
-- `env`
+The commands I have decided to add are:
+   1. ls
+   2. mkdir
+   3. open
+   4. pwd
+   5. touch
 
 ## Steps to run
 
